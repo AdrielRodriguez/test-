@@ -93,7 +93,25 @@ export default function Footer() {
                 href="/terms" 
                 className="text-slate-400 hover:text-white transition-colors duration-300 font-sans text-sm"
               >
-                Terms
+                Terms of Service
+              </Link>
+              <Link 
+                href="/cookie-policy" 
+                className="text-slate-400 hover:text-white transition-colors duration-300 font-sans text-sm"
+              >
+                Cookie Policy
+              </Link>
+              <Link 
+                href="/security-policy" 
+                className="text-slate-400 hover:text-white transition-colors duration-300 font-sans text-sm"
+              >
+                Security Policy
+              </Link>
+              <Link 
+                href="/legal-center" 
+                className="text-slate-400 hover:text-white transition-colors duration-300 font-sans text-sm"
+              >
+                Legal Center
               </Link>
             </div>
           </div>

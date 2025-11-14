@@ -18,7 +18,7 @@ export default function PrivacyPage() {
   }, []);
 
   return (
-    <div className="min-h-screen text-white relative overflow-hidden" style={{ backgroundColor: '#36454F' }}>
+    <div className="min-h-screen text-white relative overflow-hidden -mt-16 pt-16" style={{ backgroundColor: '#36454F' }}>
       {/* Fondo animado sutil */}
       <div className="fixed inset-0 pointer-events-none z-0">
         {/* Partículas suaves flotantes */}
@@ -44,13 +44,16 @@ export default function PrivacyPage() {
       </div>
 
       {/* Content Section */}
-      <section className="relative z-10 container mx-auto px-4 sm:px-6 py-12 sm:py-16 md:py-24">
+      <section className="relative z-10 container mx-auto px-4 sm:px-6 pt-0 pb-12 sm:pb-16 md:pb-24">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="mb-12 text-center">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 text-white font-sans mx-auto">
               ZENTRAIS PRIVACY POLICY
             </h1>
+            <p className="text-base sm:text-lg text-gray-400 font-sans">
+              Ver. 11/15/2025
+            </p>
           </div>
 
           {/* Introduction */}
@@ -410,7 +413,9 @@ export default function PrivacyPage() {
               Email: privacy@zentrais.com
             </p>
             <p className="text-base sm:text-lg text-gray-400 leading-relaxed font-sans">
-              Address: [Zentrais Delaware or FL Address ???]
+              5185 NW 75th Ave,<br />
+              Lauderhill, FL 33319<br />
+              USA.
             </p>
           </div>
 

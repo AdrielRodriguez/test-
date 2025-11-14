@@ -18,7 +18,7 @@ export default function TermsPage() {
   }, []);
 
   return (
-    <div className="min-h-screen text-white relative overflow-hidden" style={{ backgroundColor: '#36454F' }}>
+    <div className="min-h-screen text-white relative overflow-hidden -mt-16 pt-16" style={{ backgroundColor: '#36454F' }}>
       {/* Fondo animado sutil */}
       <div className="fixed inset-0 pointer-events-none z-0">
         {/* Partículas suaves flotantes */}
@@ -44,7 +44,7 @@ export default function TermsPage() {
       </div>
 
       {/* Content Section */}
-      <section className="relative z-10 container mx-auto px-4 sm:px-6 py-12 sm:py-16 md:py-24">
+      <section className="relative z-10 container mx-auto px-4 sm:px-6 pt-0 pb-12 sm:pb-16 md:pb-24">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="mb-12 text-center">

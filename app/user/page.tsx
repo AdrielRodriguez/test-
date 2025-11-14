@@ -100,7 +100,7 @@ export default function UserPage() {
   };
 
   return (
-    <div className="min-h-screen text-white relative overflow-hidden" style={{ backgroundColor: '#151515' }}>
+    <div className="min-h-screen text-white relative overflow-hidden" style={{ backgroundColor: '#36454F' }}>
       {/* Partículas de luz de fondo */}
       <div className="fixed inset-0 pointer-events-none z-0">
         {particles.map((particle) => (

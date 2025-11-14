@@ -45,7 +45,7 @@ export default function HomePage() {
 
   return (
     <div
-      className="min-h-screen bg-cover bg-center"
+      className="min-h-screen bg-cover bg-center bg-fixed"
       style={{ backgroundImage: `url('/fondo-new.jpg')` }}
     >
       {/* CABECERA DE LA PANTALLA */}
@@ -60,7 +60,7 @@ export default function HomePage() {
 
       {/* SECCIÓN PRINCIPAL */}
       <div className="flex items-center justify-center">
-        <div className="container mx-auto py-8 sm:py-12 md:py-16 px-4 sm:px-6">
+        <div className="container mx-auto pt-12 sm:pt-16 md:pt-20 pb-8 sm:pb-12 md:pb-16 px-4 sm:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 text-center">
             {audienceCards.map((card) => {
               const Icon = card.icon;

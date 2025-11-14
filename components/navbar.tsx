@@ -3,15 +3,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Raleway } from 'next/font/google';
 import LanguageSelector from './language-selector';
 import ChannelSelector from './channel-selector';
-
-const raleway = Raleway({
-  subsets: ['latin'],
-  weight: ['400', '500', '600'],
-  display: 'swap',
-});
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -36,7 +29,7 @@ export default function Navbar() {
         WebkitBackdropFilter: 'blur(8px) saturate(180%)',
       } : undefined}
     >
-      <div className="flex justify-between items-center py-1.5 px-4 sm:px-6">
+      <div className="flex justify-between items-center py-1 px-4 sm:px-6">
         {isHomepage ? (
           <>
             <div className="flex-1"></div>
@@ -51,9 +44,13 @@ export default function Navbar() {
                 height={56}
                 className="transition-transform duration-300 hover:scale-110"
               />
-              <span className={`text-2xl font-normal tracking-normal text-gray-200 transition-colors duration-300 hover:text-white ${raleway.className}`} style={{ letterSpacing: '0.01em' }}>
-                Zentrais
-              </span>
+              <Image
+                src="/logo-1.png"
+                alt="Zentrais"
+                width={130}
+                height={130}
+                className="transition-transform duration-300 hover:scale-110 object-contain"
+              />
             </Link>
             <div className="flex-1 flex justify-end items-center gap-4">
               <LanguageSelector />
@@ -72,9 +69,13 @@ export default function Navbar() {
                 height={56}
                 className="transition-transform duration-300 hover:scale-110"
               />
-              <span className={`text-2xl font-normal tracking-normal text-gray-200 transition-colors duration-300 hover:text-white ${raleway.className}`} style={{ letterSpacing: '0.01em' }}>
-                Zentrais
-              </span>
+              <Image
+                src="/logo-1.png"
+                alt="Zentrais"
+                width={130}
+                height={130}
+                className="transition-transform duration-300 hover:scale-110 object-contain"
+              />
             </Link>
             <div className="flex justify-end items-center gap-4">
               <ChannelSelector />

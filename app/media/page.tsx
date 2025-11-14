@@ -100,7 +100,7 @@ Publication History / Focus Area: ${formData.publicationHistory}
             <div className="text-left">
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-white leading-tight media-headline">
                 Let&apos;s Break{' '}
-                <span className="tone-highlight">the Mold.</span>{' '}
+                <span className="text-blue-300">the Mold.</span>{' '}
                 Together.
               </h1>
               <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
@@ -199,7 +199,7 @@ Publication History / Focus Area: ${formData.publicationHistory}
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white leading-tight media-headline">
             Resources for{' '}
-            <span className="tone-highlight">Ethical</span>
+            <span className="text-blue-300">Ethical</span>
             <br />
             Storytelling
           </h2>
@@ -414,7 +414,7 @@ Publication History / Focus Area: ${formData.publicationHistory}
             <div className="space-y-3">
               <Button
                 onClick={() => window.location.href = 'mailto:pr@zentrais.com?subject=Interview Request'}
-                className="w-full bg-pink-500 hover:bg-pink-600 text-white text-base sm:text-lg px-6 py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2"
+                className="w-full bg-blue-500 hover:bg-blue-600 text-white text-base sm:text-lg px-6 py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2"
               >
                 Request Interview
                 <ArrowRight className="w-5 h-5" />
@@ -422,7 +422,7 @@ Publication History / Focus Area: ${formData.publicationHistory}
               
               <Button
                 onClick={() => window.location.href = 'mailto:pr@zentrais.com?subject=Press Kit Request'}
-                className="w-full bg-pink-500 hover:bg-pink-600 text-white text-base sm:text-lg px-6 py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2"
+                className="w-full bg-blue-500 hover:bg-blue-600 text-white text-base sm:text-lg px-6 py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105 flex items-center justify-center gap-2"
               >
                 Access Press Kit
                 <ArrowRight className="w-5 h-5" />
@@ -548,7 +548,7 @@ Publication History / Focus Area: ${formData.publicationHistory}
               {/* Submit Button */}
               <Button
                 type="submit"
-                className="w-full bg-pink-500 hover:bg-pink-600 text-white text-lg px-8 py-4 rounded-xl font-semibold transition-all duration-300 hover:scale-105"
+                className="w-full bg-blue-500 hover:bg-blue-600 text-white text-lg px-8 py-4 rounded-xl font-semibold transition-all duration-300 hover:scale-105"
               >
                 Apply Now
               </Button>
@@ -561,7 +561,7 @@ Publication History / Focus Area: ${formData.publicationHistory}
       <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-slate-900/95 backdrop-blur-lg border-t border-amber-400/20 p-4">
         <Button
           onClick={handleJoinZenzers}
-          className="w-full bg-pink-500 text-white hover:bg-pink-600"
+          className="w-full bg-blue-500 text-white hover:bg-blue-600"
         >
           Join Zenzers
           <ArrowRight className="w-4 h-4 ml-2" />

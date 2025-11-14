@@ -619,10 +619,10 @@ export default function UserPage() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
             {/* Encrypted & Private */}
-            <div className="bg-slate-900/60 backdrop-blur-sm rounded-2xl border border-blue-400/30 p-6 sm:p-8 hover:border-blue-400/60 transition-all duration-300 hover:scale-105">
+            <div className="bg-slate-900/60 backdrop-blur-sm rounded-2xl border border-pink-400/30 p-6 sm:p-8 hover:border-pink-400/60 transition-all duration-300 hover:scale-105">
               <div className="flex items-center gap-4 mb-4">
-                <div className="w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center">
-                  <Lock className="w-6 h-6 text-blue-400" />
+                <div className="w-12 h-12 rounded-full bg-pink-500/20 flex items-center justify-center">
+                  <Lock className="w-6 h-6 text-pink-300" />
                 </div>
                 <h3 className="text-xl sm:text-2xl font-bold text-white font-sans">{t('user.insights.encrypted.title')}</h3>
               </div>
@@ -632,10 +632,10 @@ export default function UserPage() {
             </div>
 
             {/* Verified & Credited */}
-            <div className="bg-slate-900/60 backdrop-blur-sm rounded-2xl border border-blue-400/30 p-6 sm:p-8 hover:border-blue-400/60 transition-all duration-300 hover:scale-105">
+            <div className="bg-slate-900/60 backdrop-blur-sm rounded-2xl border border-pink-400/30 p-6 sm:p-8 hover:border-pink-400/60 transition-all duration-300 hover:scale-105">
               <div className="flex items-center gap-4 mb-4">
-                <div className="w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center">
-                  <CheckCircle className="w-6 h-6 text-blue-400" />
+                <div className="w-12 h-12 rounded-full bg-pink-500/20 flex items-center justify-center">
+                  <CheckCircle className="w-6 h-6 text-pink-300" />
                 </div>
                 <h3 className="text-xl sm:text-2xl font-bold text-white font-sans">{t('user.insights.verified.title')}</h3>
               </div>
@@ -645,10 +645,10 @@ export default function UserPage() {
             </div>
 
             {/* Ethical Standards */}
-            <div className="bg-slate-900/60 backdrop-blur-sm rounded-2xl border border-blue-400/30 p-6 sm:p-8 hover:border-blue-400/60 transition-all duration-300 hover:scale-105">
+            <div className="bg-slate-900/60 backdrop-blur-sm rounded-2xl border border-pink-400/30 p-6 sm:p-8 hover:border-pink-400/60 transition-all duration-300 hover:scale-105">
               <div className="flex items-center gap-4 mb-4">
-                <div className="w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center">
-                  <Shield className="w-6 h-6 text-blue-400" />
+                <div className="w-12 h-12 rounded-full bg-pink-500/20 flex items-center justify-center">
+                  <Shield className="w-6 h-6 text-pink-300" />
                 </div>
                 <h3 className="text-xl sm:text-2xl font-bold text-white font-sans">{t('user.insights.ethical.title')}</h3>
               </div>
